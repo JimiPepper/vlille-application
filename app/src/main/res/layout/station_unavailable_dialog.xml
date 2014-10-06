@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4aff0400"
+    android:id="@+id/message_unavailable">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/titleDetailDialog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/title_dialog_drawable"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:singleLine="false"
+        android:padding="25px"
+        android:textColor="#ff34bbff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="La station est indisponible"
+        android:id="@+id/bikes"
+        android:textColor="#ffff0001"
+        android:textSize="35dp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/titleDetailDialog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="15px"
+        android:paddingBottom="25px"
+        android:paddingLeft="20px"
+        android:paddingRight="20px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fermer"
+        android:id="@+id/close_dialog"
+        android:layout_below="@+id/bikes"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30px" />
+
+</LinearLayout>

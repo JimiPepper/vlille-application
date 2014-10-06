@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VLille</string>
+    <string name="action_settings">Options</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_tab_list_station">Stations</string>
+    <string name="title_tab_list_map">Map</string>
+    <string name="detailDialogAddressInfo">Adresse : </string>
+    <string name="detailDialogBikeInfo">Vélos disponibles : </string>
+    <string name="detailDialogAttachInfo">Emplacements restants : </string>
+    <string name="bikeMarkerGoogleMap">vélos</string>
+    <string name="attachMarkGoogleMap">rangements</string>
+
+</resources>
