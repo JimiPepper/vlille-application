@@ -38,7 +38,7 @@ L'application est capable de :
 * lister toutes les stations VLille
 * lors de l'appui du doigt sur un item de cette liste, d'afficher en fonction du statut de la station le détail des informations la concernant
 * d'afficher une GoogleMap marquée par toutes les stations VLille existantes
-* d'afficher le nombre de vélos et d'emplacement restants lors de l'appui du doigt sur un marqueur de la GoogleMap
+* d'afficher le nombre de vélos et d'emplacements restants lors de l'appui du doigt sur un marqueur de la GoogleMap
 
 SCREENSHOTS
 -----------
